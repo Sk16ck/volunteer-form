@@ -8,7 +8,7 @@
 </head>
 <body>
   <!-- Header  -->
-  <div>
+  <div class="planter">
     <h1>Apply to be a tree planter</h1>
     <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
   </div>
@@ -16,42 +16,47 @@
   <form class="" action="index.html" method="post">
     <fieldset>
       <h2>Personal details</h2>
-      <!-- Name -->
-      <div>
-        <label for="name">Full name</label>
-        <input id=name>
-      </div>
-      <!-- Nickname -->
-      <div>
-        <label for="nickname">What should we call you?</label>
-        <input id=nickname>
-      </div>
-      <!-- Date of Birth -->
-      <div>
-        <label for="birthdate">Date of birth</label>
-        <input id=birthdate value="yyyy-mm-dd">
-      </div>
-      <!-- Shirt size -->
-      <div>
-        <label for="shirt">T-shirt size</label>
-        <select id="shirt" value="Select a t-shirt size">
-          <option value=""></option>
-          <option value=""></option>
-          <option value=""></option>
-        </select>
-      </div>
-      <!-- Email -->
-      <div>
-        <label for="email">Email</label>
-        <input id=email>
-      </div>
-      <!-- Phone Number -->
-      <div>
-        <label for="phonenumber">Phone number<i>(optional)</i></label>
-        <input id=phonenumber>
-      </div>
-    </fieldset>
-  </form>
+
+      <div class="grid">
+        <!-- Name -->
+        <div class="unit push-b">
+          <label for="name">Full name</label>
+          <input id=name name="name">
+          <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+        </div>
+        <!-- Nickname -->
+        <div class="unit push-t">
+          <label for="nickname">What should we call you?</label>
+          <input id=nickname>
+        </div>
+        <!-- Date of Birth -->
+        <div class="unit">
+          <label for="birthdate">Date of birth</label>
+          <input id=birthdate value="yyyy-mm-dd">
+        </div>
+        <!-- Shirt size -->
+        <div class="unit">
+          <label for="shirt">T-shirt size</label>
+          <select id="shirt" value="Select a t-shirt size">
+            <option></option>
+            <option></option>
+            <option></option>
+          </select>
+        </div>
+        <!-- Email -->
+        <div class="unit">
+          <label for="email">Email</label>
+          <input id=email>
+        </div>
+        <!-- Phone Number -->
+        <div class="unit">
+          <label for="phonenumber">Phone number<i>(optional)</i></label>
+          <input id=phonenumber>
+        </div>
+      </fieldset>
+    </form>
+
+  </div>
 
   <!-- Footer -->
 
