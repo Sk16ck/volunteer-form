@@ -1,15 +1,20 @@
 html {
-
+  font-family: "Noto Serif", serif;
+  color: #fff;
 }
 
 body {
   padding: 0;
 }
 
-p {
-  margin: 0;
+fieldset {
+  color: #000;
 }
 
-.planter {
+.header {
   background-color: #70ad55;
+}
+
+p {
+  margin: 0;
 }

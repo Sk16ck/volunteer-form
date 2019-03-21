@@ -4,52 +4,57 @@
   <meta charset="utf-8">
   <title>Volunteer Form</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
   <!-- Header  -->
-  <div class="planter">
+  <div class="header pad-t pad-b">
     <h1>Apply to be a tree planter</h1>
     <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
   </div>
   <!-- Form containing 5 <fieldsets -->
   <form class="" action="index.html" method="post">
-    <fieldset>
+    <fieldset class="pad-t">
       <h2>Personal details</h2>
 
       <div class="grid">
         <!-- Name -->
-        <div class="unit push-b">
+        <div class="unit xs-1 s-1 pad-b">
           <label for="name">Full name</label>
           <input id=name name="name">
-          <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+          <p class="italic">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
         </div>
         <!-- Nickname -->
-        <div class="unit push-t">
+        <div class="unit xs-1 s-1 pad-b">
           <label for="nickname">What should we call you?</label>
           <input id=nickname>
+          <p class="italic">What all your friends call you, e.g. “Liz”.</p>
         </div>
         <!-- Date of Birth -->
-        <div class="unit">
+        <div class="unit xs-1 s-1 pad-b">
           <label for="birthdate">Date of birth</label>
           <input id=birthdate value="yyyy-mm-dd">
         </div>
         <!-- Shirt size -->
-        <div class="unit">
+        <div class="unit xs-1 s-1 pad-b">
           <label for="shirt">T-shirt size</label>
-          <select id="shirt" value="Select a t-shirt size">
-            <option></option>
+          <select id="shirt">
+            <option>Select a t-shirt size</option>
             <option></option>
             <option></option>
           </select>
         </div>
         <!-- Email -->
-        <div class="unit">
+        <div class="unit xs-1 s-1 pad-b">
           <label for="email">Email</label>
           <input id=email>
         </div>
         <!-- Phone Number -->
-        <div class="unit">
+        <div class="unit xs-1 s-1 pad-b">
           <label for="phonenumber">Phone number<i>(optional)</i></label>
           <input id=phonenumber>
         </div>
